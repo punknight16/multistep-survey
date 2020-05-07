@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="./multistep.css">
+		<link rel="stylesheet" type="text/css" href="./graphics.css">
+	</head>
+	<body>
+			<form id="regForm" action="">
+				<div class="survey-container">
+					<div class="survey-monitor">
+						<h3 class="survey-text">How many independent <br> contractors does your <br>company have?</h3>
+					</div>
+	        <div class="survey-border survey-highlight survey-base"></div>
+	      </div>
+				<!-- One "tab" for each step in the form: -->
+				<div class="tab">
+					<div class="survey-container">
+						<div class="survey-response">
+	            <label for="1-20">1-20</label>
+	            <span style="vertical-align: 0.25em;">
+	              <input type="radio" id="" name="contractors" value="1-20">
+	            </span>
+						</div>
+	          <div class="survey-response">
+	            <label for="21-50">21-50</label>
+	            <span style="vertical-align: 0.25em;">
+	  					  <input type="radio" id="21-50" name="contractors" value="21-50">
+	            </span>
+						</div>
+	          <div class="survey-response">
+	            <label for="51-100">51-100</label>
+	            <span style="vertical-align: 0.25em;"><input type="radio" id="51-100" name="contractors" value="51-100"></span>
+	          </div>
+	          <div class="survey-response">
+	            <label for="101+">101+</label>
+	            <span style="vertical-align: 0.25em;"><input type="radio" id="101+" name="contractors" value="101+"></span>
+	          </div>
+	        </div>
+				</div>
+				<!-- One "tab" for each step in the form: -->
+				<div class="tab">
+					<div class="survey-container">
+					<div style="display: flex; justify-content: space-between;">
+          <div class="survey-importance">
+            <label for="1">1</label><br>
+            <span style="vertical-align: 0.25em;">
+              <input type="radio" id="" name="importance" value="1">
+            </span>
+          </div>
+          <div class="survey-importance">
+            <label for="2">2</label><br>
+            <span style="vertical-align: 0.25em;">
+              <input type="radio" id="2" name="importance" value="2">
+            </span>
+          </div>
+          <div class="survey-importance">
+            <label for="3">3</label><br>
+            <span style="vertical-align: 0.25em;"><input type="radio" id="3" name="importance" value="3"></span>
+          </div>
+          <div class="survey-importance">
+            <label for="4">4</label><br>
+            <span style="vertical-align: 0.25em;"><input type="radio" id="4" name="importance" value="4"></span>
+          </div>
+          <div class="survey-importance">
+            <label for="5">5</label><br>
+            <span style="vertical-align: 0.25em;"><input type="radio" id="5" name="importance" value="5"></span>
+          </div>
+        </div>
+        <div style="display: flex; justify-content: space-between; width: 100%;">
+          <label>Not Very<br>Important</label>
+          <label>Extremely <br> Important</label>
+        </div>
+				</div>
+			</div>
+
+				<div class="tab">
+					<div class="survey-container">
+						<textarea class="survey-textarea"></textarea>
+					</div>
+				</div>
+
+
+				<div style="overflow:auto;">
+				  <div style="float:right;">
+				    <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+				    <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+				  </div>
+				</div>
+
+				<!-- Circles which indicates the steps of the form: -->
+				<div style="text-align:center;margin-top:40px;">
+				  <span class="step"></span>
+				  <span class="step"></span>
+				  <span class="step"></span>
+				</div>
+			</form>
+		</main>
+		<script src="./multistep.js"></script>
+		
+	</body>
+</html>

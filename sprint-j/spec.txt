@@ -1,0 +1,5 @@
+electric light blue: 00d8ff
+electric green: 00ff18
+electric pink: ff00e1
+electric yellow: d0ff00
+electric blue: 0e92d0

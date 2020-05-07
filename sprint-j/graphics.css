@@ -1,0 +1,70 @@
+@font-face {
+      font-family: 'century-gothic';
+      src: url(https://unwyre-user.s3-us-west-2.amazonaws.com/user/us-west-2%3Aeec23bda-eff1-432f-a80f-4ec1a503744b/font/century-gothic/GOTHIC.TTF);
+    }
+    h3 {
+      font-family: 'century-gothic', arial;
+      font-size: 24pt;
+    }
+    label, input{
+      font-family: 'century-gothic', arial;
+      font-size: 18pt;
+    }
+
+.survey-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.survey-background {
+	background-color: #29487a;
+	text-transform: uppercase;
+}
+.survey-monitor {
+	border: 5px solid #6fb535;
+	background-color: #FFF;
+	padding: 0 10px 0 10px;
+  text-align: center;
+}
+.survey-response {
+  border: 2px solid #6fb535;
+  background-color: #FFF;
+  padding-bottom: 15px;
+  margin: 10px;
+  height: 40px;
+  width: 250px;
+  text-align: center;
+}
+.survey-importance {
+  border: 2px solid #6fb535;
+  background-color: #FFF;
+  padding-bottom: 15px;
+  margin: 10px;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+}
+.survey-highlight {
+	background-color: #6fb535;
+}
+.survey-base {
+	width: 150px;
+	height: 15px;
+}
+.survey-text {
+	color: #6fb535;
+	background-color: #FFF;
+}
+.survey-textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  font-size: 17px;
+  font-family: Raleway;
+}
