@@ -51,23 +51,7 @@
 
 		/* Mark the steps that are finished and valid: */
 		.step.finish {
-		  background-color: #4CAF50;
+		  background-color: #0e92d0;
 		}
 
-		button {
-  background-color: #4CAF50;
-  color: #ffffff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 17px;
-  font-family: Raleway;
-  cursor: pointer;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-#prevBtn {
-  background-color: #bbbbbb;
-}
+	
